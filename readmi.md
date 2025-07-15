@@ -1,13 +1,23 @@
 # Программа для сортировки имён
+
 ## Это программа написана на языке программирования python, для разделения списка имён из вводных данных на имена написанные на русском и английском языках.
 
 ## Установка
 
 1. Клонируйте репозиторий
+
 ```commandline
 git@github.com:sadslon/git-tests.git
 ```
+
 2. Установите зависимости:
+
+```commandline
+poetry add --group lint flake8
+poetry add --group lint mypy
+poetry add --group lint black
+poetry add --group lint isort
+```
 3. Создайте базу данных и выполните миграции:
 
 ## Использование:
