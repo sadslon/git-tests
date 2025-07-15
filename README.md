@@ -13,12 +13,14 @@ git@github.com:sadslon/git-tests.git
 2. Установите зависимости:
 
 ```commandline
-poetry add --group lint flake8
-poetry add --group lint mypy
-poetry add --group lint black
-poetry add --group lint isort
+pip install -r requirements.txt
 ```
-3. Создайте базу данных и выполните миграции:
+
+3. Установите инструменты:
+
+```commandline
+pip install flake8 mypy
+```
 
 ## Использование:
 
